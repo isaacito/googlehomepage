@@ -1,0 +1,135 @@
+html{
+    font-family: sans-serif;
+}
+
+#googlelogo{
+    height: 95px;
+    width: 289px;
+    display: block;
+    margin-left: 2%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 5px 1px 0px 0px;
+    padding: 0;
+
+} 
+
+li {
+    display: inline;
+    float: right;
+    color: #404040;
+    margin: 8px;
+
+
+}
+
+a {
+    display: block;
+    color: #404040;
+    text-decoration: none;
+    margin:5px;
+    font-size: 13px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+.googlelogo{
+  position: fixed; /* or absolute */
+  top: 25%;
+  left: 35%;
+}
+
+input[type="text"] {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px 0px 0px 4px;
+    display: inline-block;
+    float: left;
+    width: 535px;
+    height: 27px;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid solid solid solid;
+    border-color: #DCDCDC #DCDCDC #DCDCDC #DCDCDC;
+    position: fixed;
+    top: 43%;
+    left: 25%;
+}
+
+#b1{
+    position: fixed;
+    top: 51%;
+    left: 37%;
+    height: 29px;
+    width: 108px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #444 !important;
+    font-size: 11px;
+}
+
+#b2{
+    position: fixed;
+    top: 51%;
+    left: 47%;
+    height: 29px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #444 !important;
+    font-size: 11px;
+}
+
+footer {
+    background: #F2F2F2;
+    border-top: 1px solid #E4E4E4;
+    line-height: 40px;
+    min-width: 100%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+footer .footer-left {
+    float: left;
+    margin: 0px;
+}
+
+footer .footer-right {
+    float: right;
+    margin: 0px 20px 0px 0px;
+}
+footer ul {
+    padding: 0px 0px 0px 20px;
+}
+footer {
+    line-height: 40px;
+}
+
+footer li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.footer-right li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.signin{
+    border: 1px solid #4285F4;
+    font-weight: bold;
+    outline: medium none;
+    background: -moz-linear-gradient(center top , #4387FD, #4683EA) repeat scroll 0% 0% transparent;
+    color: #FFF;
+    display: inline-block;
+    line-height: 28px;
+    padding: 0px 12px;
+    border-radius: 2px;
+}
